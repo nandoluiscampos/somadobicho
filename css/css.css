@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c4c4c4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    font-weight: bold;
+    margin: 5px 0;
+    color: #333;
+}
+
+.error {
+    color: red;
+}
+
+#resultado-div {
+    width: 300px;
+    /* Defina a largura desejada */
+    height: 300px;
+    /* Defina a altura desejada */
+    border: 1px solid #ccc;
+    overflow: auto;
+    /* Habilita a barra de rolagem quando necessário */
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-bottom: 20px;
+font-family: Arial, sans-serif;
+}
+
+th, td {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: center;
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+th {
+background-color: #333;
+color: white;
+}
+
+  
